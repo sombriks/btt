@@ -1,0 +1,38 @@
+{
+  "name": "btt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "scripts": {
+    "test": "mocha --timeout=5000",
+    "dev": "budo src/main.js:build.js --live --open",
+    "build": "browserify src/main.js -o build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sombriks/btt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sombriks/btt/issues"
+  },
+  "homepage": "https://github.com/sombriks/btt#readme",
+  "dependencies": {
+    "vue": "^2.1.6"
+  },
+  "devDependencies": {
+    "browserify": "^13.1.1",
+    "budo": "^9.3.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "nightmare": "^2.9.0",
+    "vueify": "^9.4.0"
+  },
+  "browserify":{
+    "transform":[
+      "vueify"
+    ]
+  }
+}
