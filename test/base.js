@@ -10,7 +10,7 @@ describe("\u263C basic tests \u263E", () => {
 
   it("should check document title", (done) => {
     Nightmare().goto("http://127.0.0.1:9966")
-      .wait("#mount").evaluate(() => {
+      .wait("#mountpoint").evaluate(() => {
         return document.title;
       }).end().then((result) => {
         expect(result).to.equal("BTT");

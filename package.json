@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/sombriks/btt#readme",
   "dependencies": {
-    "vue": "^2.1.6"
+    "vue": "^2.1.6",
+    "vue-router": "^2.1.1"
   },
   "devDependencies": {
     "browserify": "^13.1.1",
@@ -30,8 +31,8 @@
     "nightmare": "^2.9.0",
     "vueify": "^9.4.0"
   },
-  "browserify":{
-    "transform":[
+  "browserify": {
+    "transform": [
       "vueify"
     ]
   }
