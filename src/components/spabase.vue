@@ -1,5 +1,6 @@
 <template>
   <div id="spabase">
+    
     <router-view></router-view>
   </div>
 </template>

@@ -4,7 +4,7 @@
 
 <script>
   module.exports = {
-    name: ""
+    name: "Recurso-Lista"
   };
 </script>
 

@@ -6,4 +6,4 @@ const vm = new Vue({
   render (createElement){
     return createElement(require("./components/spabase.vue"));
   }
-}).$mout("#mountpoint");
+}).$mount("#mountpoint");
